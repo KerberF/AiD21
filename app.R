@@ -48,9 +48,9 @@ library(shinybusy)
 
 #Funktionen 
 #set_wd <- function(){
-#  library("rstudioapi")
-#  current_path <- getActiveDocumentContext()$path  
-#  setwd(dirname(current_path))
+  library("rstudioapi")
+  current_path <- getActiveDocumentContext()$path  
+  setwd(dirname(current_path))
 #  print(getwd())
 #}
 #set_wd()
